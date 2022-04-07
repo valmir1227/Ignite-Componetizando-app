@@ -21,7 +21,7 @@ interface GenreResponseProps {
 }
 interface ContentProps {
   selectedGenreId: number;
-  selectedGenre: GenreResponseProps; //
+  selectedGenre: GenreResponseProps;
 }
 
 export function Content({ selectedGenreId, selectedGenre }: ContentProps) {

@@ -22,7 +22,7 @@ export function App() {
 
   useEffect(() => {
     api
-      .get<GenreResponseProps[]>(`genres/${selectedGenreId}`)
+      .get<GenreResponseProps>(`genres/${selectedGenreId}`)
       .then((response) => {
         setSelectedGenre(response.data);
       });

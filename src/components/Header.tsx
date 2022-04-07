@@ -4,9 +4,9 @@ interface GenreResponseProps {
   title: string;
 }
 interface ContentProps {
-  selectedGenreId: number;
   selectedGenre: GenreResponseProps;
 }
+
 export const Header = ({ selectedGenre }: ContentProps) => {
   return (
     <header>
