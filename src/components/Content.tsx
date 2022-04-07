@@ -21,7 +21,7 @@ interface GenreResponseProps {
 }
 interface ContentProps {
   selectedGenreId: number;
-  selectedGenre: GenreResponseProps;
+  selectedGenre: GenreResponseProps; //
 }
 
 export function Content({ selectedGenreId, selectedGenre }: ContentProps) {
@@ -37,14 +37,7 @@ export function Content({ selectedGenreId, selectedGenre }: ContentProps) {
 
   return (
     <div className="container">
-      {
-        //  <Header selectedGenre={selectedGenre.title} />
-      }
-      <header>
-        <span className="category">
-          Categoria: <span>{selectedGenre.title}</span>
-        </span>
-      </header>
+      <Header selectedGenre={selectedGenre} />
 
       <main>
         <div className="movies-list">
