@@ -13,3 +13,13 @@ Para resolver isso da melhor forma, é necessário dividir a aplicação em pelo
 - O header da aplicação possui apenas o nome da categoria selecionada que deve mudar dinamicamente.
 
 <img src="https://github.com/valmir1227/Ignite-Componetizando-app/blob/main/.github/161743504-abad57af-3f9c-4ad6-814d-2c030e46e297.gif?raw=true" />
+
+ # ⚙️ Como rodar esse projeto na sua máquina
+  
+  1. Abra o seu terminal e digite <code>git clone: https://github.com/valmir1227/Ignite-Componetizando-app.git</code>
+  2. Entre no diretório: <code>cd Ignite-Componetizando-app</code> depois abra com o editor de cod: <code>code .</code>
+  3. Instale as depêndecias: <code>yarn</code>
+  4. Abra 2 terminais e coloque: <code>yarn dev</code> e: <code>yarn server</code> <br>
+  (Isso executará simultaneamente a aplicação e a fake API)
+  
+  ### 😁 Be Happy!
